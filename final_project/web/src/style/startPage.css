@@ -1,0 +1,46 @@
+.StartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/startpageBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vh;
+    height: 15vh;
+    width: 45vw;
+    background-color: aliceblue;
+    border: #000 2px solid;
+}
+
+.title {
+    font-size: 2.2em;
+    color: cornflowerblue;
+    font-weight: 900;
+}
+
+.startButton {
+    animation: motive 2s  infinite;
+}
+
+@keyframes motive {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
